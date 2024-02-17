@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <style>
+     
+        div {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 8px;
+            width: 200px;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+        }
+        h1{
+            text-align: left;
+            padding-left: 40px;
+        }
+        h2{
+            text-align: left;
+            padding-left: 40px;
+            padding-top: 2px;
+          }
+          h5 {
+            text-align: right;
+            padding-right: 200px;
+          }
+          h3 {
+            padding-left: 200px;
+          }
+        #box {
+            background-color: #D4F1F4;
+            width: 80%;
+            padding-left: 30px;
+            margin: 20px;
+            text-align: left;
+          }
+          #main{
+            padding-left: 50px;
+            margin: 50px;
+          }
+    </style>
+</head>
+<body>
+<form action="/Output" method="POST"> 
+    
+        <h1>Prediction</h1>
+        <div id="main">
+        <h2>Genetic Classification</h2>
+        <div id="box2"><h5><a href="/">Home</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="/about">About</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="/Prediction">Prediction</a></h5></div>
+        <div id="box">
+        <h3 >Classification</h3>
+        <h4>classifying the Genetic Classification of an individuals with Machine Learning</h4>
+        X1 :
+        <input type="text" id="X1" name="X1"><br>
+        X2 :
+        <input type="text" id="X2" name="X2" ><br>
+        X3 :
+        <input type="text" id="X3" name="X3"><br>
+        X4 :
+        <input type="text" id="X4" name="X4"><br>
+        X5 :
+        <input type="text" id="X5" name="X5">
+        </div>
+         </form>
+ 
+    
+ 
+    </div>
+</body>
+</html>
